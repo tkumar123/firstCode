@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "server2" {
- ami = "ami-0a5b0c3ca9452f414"
+ ami = "ami-02f3416038bdb17fb"
  instance_type = "t2.medium"
  tags = {
   Name = "Anil-tf-serverday5"
